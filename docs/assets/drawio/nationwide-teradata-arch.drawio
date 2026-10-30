@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net" agent="ChatGPT">
+  <diagram id="nationwide-edw" name="Nationwide EDW Architecture">
+    <mxGraphModel dx="1668" dy="1005" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#123F70;strokeColor=#123F70;fontColor=#FFFFFF;fontSize=24;fontStyle=1;spacing=12;arcSize=12;" value="NATIONWIDE INSURANCE&#xa;Enterprise Data Warehouse Architecture" vertex="1">
+          <mxGeometry height="90" width="960" x="220" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sources" parent="1" style="swimlane;whiteSpace=wrap;html=1;rounded=1;startSize=42;fillColor=#DCEEFF;swimlaneFillColor=#F5FAFF;strokeColor=#55A9E8;fontColor=#123F70;fontSize=20;fontStyle=1;horizontal=1;arcSize=12;" value="SOURCE SYSTEMS (48+)" vertex="1">
+          <mxGeometry height="205" width="1100" x="150" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="policy" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9ECFF;strokeColor=#1684D8;fontColor=#123F70;fontSize=18;fontStyle=1;arcSize=12;" value="Policy&#xa;Admin" vertex="1">
+          <mxGeometry height="95" width="235" x="185" y="225" as="geometry" />
+        </mxCell>
+        <mxCell id="claims" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9F5E9;strokeColor=#16A477;fontColor=#075D45;fontSize=18;fontStyle=1;arcSize=12;" value="Claims&#xa;System" vertex="1">
+          <mxGeometry height="95" width="235" x="455" y="225" as="geometry" />
+        </mxCell>
+        <mxCell id="billing" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEE5FF;strokeColor=#8052D6;fontColor=#4B2B8A;fontSize=18;fontStyle=1;arcSize=12;" value="Billing&#xa;System" vertex="1">
+          <mxGeometry height="95" width="235" x="725" y="225" as="geometry" />
+        </mxCell>
+        <mxCell id="crm" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFEBD6;strokeColor=#F28A1A;fontColor=#8A4800;fontSize=18;fontStyle=1;arcSize=12;" value="CRM&#xa;Portal" vertex="1">
+          <mxGeometry height="95" width="220" x="995" y="225" as="geometry" />
+        </mxCell>
+        <mxCell id="etl" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D8F4FB;strokeColor=#16A9CE;fontColor=#064D70;fontSize=20;fontStyle=1;spacing=12;arcSize=12;" value="ETL LAYER&#xa;FastLoad  •  MultiLoad  •  FastExport" vertex="1">
+          <mxGeometry height="100" width="600" x="400" y="415" as="geometry" />
+        </mxCell>
+        <mxCell id="edw" parent="1" style="swimlane;whiteSpace=wrap;html=1;rounded=1;startSize=55;fillColor=#DCEEFF;swimlaneFillColor=#F7FBFF;strokeColor=#164F88;fontColor=#FFFFFF;fontSize=22;fontStyle=1;horizontal=1;arcSize=12;swimlaneLine=1;" value="TERADATA EDW  |  100+ Terabytes" vertex="1">
+          <mxGeometry height="220" width="1000" x="200" y="575" as="geometry" />
+        </mxCell>
+        <mxCell id="policy_mart" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9ECFF;strokeColor=#1684D8;fontColor=#123F70;fontSize=18;fontStyle=1;arcSize=12;" value="Policy Data Mart" vertex="1">
+          <mxGeometry height="95" width="275" x="235" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="claims_mart" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9F5E9;strokeColor=#16A477;fontColor=#075D45;fontSize=18;fontStyle=1;arcSize=12;" value="Claims Data Mart" vertex="1">
+          <mxGeometry height="95" width="275" x="562" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="finance_mart" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEE5FF;strokeColor=#8052D6;fontColor=#4B2B8A;fontSize=18;fontStyle=1;arcSize=12;" value="Finance &amp; Compliance Mart" vertex="1">
+          <mxGeometry height="95" width="275" x="890" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="users" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E0F7E9;strokeColor=#36B879;fontColor=#075D45;fontSize=19;fontStyle=1;spacing=15;arcSize=12;" value="BUSINESS USERS&#xa;Compliance Reports     |     Risk Analytics     |     Finance Dashboards     |     Smart Ride Insights" vertex="1">
+          <mxGeometry height="125" width="1000" x="200" y="865" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="sources" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#164F88;strokeWidth=3;endArrow=block;endFill=1;" target="etl">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="etl" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#164F88;strokeWidth=3;endArrow=block;endFill=1;" target="edw">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="edw" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#164F88;strokeWidth=3;endArrow=block;endFill=1;" target="users">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

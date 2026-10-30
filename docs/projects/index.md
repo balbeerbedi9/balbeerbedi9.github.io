@@ -3,32 +3,23 @@ hide:
   - toc
   - navigation
 ---
-<!--
-CHECKLIST FOR THIS PAGE:
-- [ ] Replace the two placeholder cards (marked [YOUR PROJECT ...]) with your real projects
-- [ ] For each project: add a thumbnail image to docs/assets/images/ and update the path below
-- [ ] For each project: create a project page by copying sample-project.md
-- [ ] For each project: add a nav entry in mkdocs.yml (see the comments there)
-- [ ] Delete placeholder cards you don't need yet
--->
 
 # Projects
 
-A selection of my geospatial projects. Click any card to see the full write-up.
+A selection of my enterprise data engineering and architecture projects. Click any card to see the full write-up.
 
 <div class="grid" markdown>
 
 <div class="project-card" markdown>
-![](../assets/images/placeholder-project.png)
+![](../assets/images/nationwide-card.png)
 
-**[Sample Project](sample-project.md)**
+**[Nationwide Insurance Data Warehouse](nationwide-data-warehouse.md)**
 
-[YOUR PROJECT DESCRIPTION — one or two sentences: what you did, what data you used,
-and what you found or built.]
+Principal Data Architect role designing enterprise-scale ETL and data warehouse solutions for Fortune 100 insurer. Integrated 48+ source systems into 100+ TB Teradata platform supporting ~85% of business analytics and regulatory compliance.
 
-`[TOOL 1]` `[TOOL 2]` `[TOOL 3]`
+`Teradata` `ETL` `Data Architecture` `FastLoad` `MultiLoad` `SQL` `Data Modeling`
 
-[View Project →](sample-project.md){ .md-button }
+[View Project →](nationwide-data-warehouse.md){ .md-button }
 </div>
 
 <div class="project-card" markdown>
@@ -36,12 +27,25 @@ and what you found or built.]
 
 **[Sample Notebook](sample-notebook.ipynb)**
 
-[YOUR PROJECT DESCRIPTION — one or two sentences: what you did, what data you used,
-and what you found or built.]
+[YOUR PROJECT DESCRIPTION — demonstrate your data engineering skills: data pipelines, transformations, visualizations, or analytics.]
 
-`Python` `pandas` `Folium`
+`Python` `PySpark` `Pandas` `SQL`
 
 [View Project →](sample-notebook.ipynb){ .md-button }
 </div>
 
 </div>
+
+---
+
+##  About My Work
+
+I'm a **Principal Data Architect** with 16+ years of experience building enterprise-grade data platforms that serve as the foundation for AI and analytics.
+
+My projects focus on:
+- **Enterprise Data Architecture** - Designing scalable, governed data platforms
+- **Cloud Migration & Modernization** - AWS, Azure, GCP, Databricks, Snowflake, Microsoft Fabric
+- **AI-Ready Data Engineering** - Building data foundations that power Generative AI and ML applications
+- **Distributed Computing** - Apache Spark, PySpark for large-scale data processing
+
+I bridge traditional data engineering fundamentals with emerging AI capabilities while maintaining enterprise requirements: security, governance, scalability, and cost efficiency.

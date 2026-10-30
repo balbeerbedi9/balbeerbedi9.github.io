@@ -1,0 +1,72 @@
+<mxfile host="app.diagrams.net" agent="ChatGPT">
+  <diagram id="nationwide-edw" name="Nationwide Insurance EDW">
+    <mxGraphModel dx="1437" dy="814" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1F4E78;fontColor=#FFFFFF;strokeColor=#163A5A;fontStyle=1;fontSize=18;align=center;verticalAlign=middle;" value="NATIONWIDE INSURANCE - ENTERPRISE DATA WAREHOUSE" vertex="1">
+          <mxGeometry height="55" width="860" x="170" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="policy" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DDEBF7;strokeColor=#5B9BD5;fontColor=#1F1F1F;fontStyle=1;fontSize=15;" value="Policy&lt;br&gt;Admin" vertex="1">
+          <mxGeometry height="85" width="190" x="90" y="145" as="geometry" />
+        </mxCell>
+        <mxCell id="claims" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DDEBF7;strokeColor=#5B9BD5;fontColor=#1F1F1F;fontStyle=1;fontSize=15;" value="Claims&lt;br&gt;System" vertex="1">
+          <mxGeometry height="85" width="190" x="350" y="145" as="geometry" />
+        </mxCell>
+        <mxCell id="billing" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DDEBF7;strokeColor=#5B9BD5;fontColor=#1F1F1F;fontStyle=1;fontSize=15;" value="Billing&lt;br&gt;System" vertex="1">
+          <mxGeometry height="85" width="190" x="610" y="145" as="geometry" />
+        </mxCell>
+        <mxCell id="crm" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DDEBF7;strokeColor=#5B9BD5;fontColor=#1F1F1F;fontStyle=1;fontSize=15;" value="CRM&lt;br&gt;Portal" vertex="1">
+          <mxGeometry height="85" width="190" x="870" y="145" as="geometry" />
+        </mxCell>
+        <mxCell id="etl" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontColor=#1F1F1F;fontStyle=1;fontSize=16;" value="ETL&lt;br&gt;Layer" vertex="1">
+          <mxGeometry height="85" width="230" x="460" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="edw" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E2F0D9;strokeColor=#70AD47;fontColor=#1F1F1F;fontStyle=1;fontSize=18;" value="TERADATA EDW&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;(100+ TB)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="100" width="370" x="390" y="535" as="geometry" />
+        </mxCell>
+        <mxCell id="analytics" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCE4D6;strokeColor=#ED7D31;fontColor=#1F1F1F;fontStyle=1;fontSize=16;" value="Analytics&lt;br&gt;Reports" vertex="1">
+          <mxGeometry height="80" width="230" x="460" y="725" as="geometry" />
+        </mxCell>
+        <mxCell id="p1" edge="1" parent="1" source="policy" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;strokeWidth=2;strokeColor=#5B9BD5;" target="etl">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="185" y="285" />
+              <mxPoint x="575" y="285" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p2" edge="1" parent="1" source="claims" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;strokeWidth=2;strokeColor=#5B9BD5;" target="etl">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="445" y="285" />
+              <mxPoint x="575" y="285" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p3" edge="1" parent="1" source="billing" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;strokeWidth=2;strokeColor=#5B9BD5;" target="etl">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="705" y="285" />
+              <mxPoint x="575" y="285" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p4" edge="1" parent="1" source="crm" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;strokeWidth=2;strokeColor=#5B9BD5;" target="etl">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="965" y="285" />
+              <mxPoint x="575" y="285" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="etl" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#D6B656;" target="edw">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="edw" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#70AD47;" target="analytics">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

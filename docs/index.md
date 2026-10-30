@@ -3,38 +3,21 @@ hide:
   - toc
   - navigation
 ---
-<!--
-CHECKLIST FOR THIS PAGE:
-- [ ] Replace [YOUR NAME] with your full name (3 places)
-- [ ] Replace [YOUR JOB TITLE] with your current or target role
-- [ ] Replace [YOUR TAGLINE] with a short phrase describing your focus
-- [ ] Rewrite the About Me paragraph with your own words
-- [ ] Replace assets/images/profile.png with your actual photo (keep the filename or update it below)
-- [ ] Replace assets/images/about.png with your own image (a field photo, map, or workspace shot)
-- [ ] Edit the skill cards to match your actual skills (add, remove, or rename cards as needed)
-- [ ] Update GitHub and LinkedIn links in the Connect section
-- [ ] Add your CV PDF to docs/assets/ and update the filename in the Download CV button
--->
 
-
-
-<div class="hero">
-  <img src="assets/images/profile.png" alt="[YOUR NAME]" class="profile-photo">
-  <h1> Sardar Balbeer Singh</h1>
-  <p><strong> Principal Data Architect </strong></p>
-  <p><em>Architecting AI-ready data foundations | Cloud | Spark | GenAI</em></p>
+<div class="hero" style="text-align: center; padding: 2rem;">
+  <img src="../assets/images/profile.png" alt="Sardar Balbeer Singh" style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover; border: 4px solid white; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin-bottom: 1.5rem;">
+  <h1 style="font-size: 2.5rem; margin: 0.5rem 0; color: var(--md-default-fg-color);">Sardar Balbeer Singh</h1>
+  <p style="font-size: 1.25rem; font-weight: 600; margin: 0.5rem 0; color: var(--md-primary-fg-color);">Principal Data Architect</p>
+  <p style="font-size: 1.1rem; font-style: italic; margin: 0.5rem 0; color: var(--md-default-fg-color--light);">Architecting AI-ready data foundations | Cloud | Spark | GenAI</p>
 </div>
 
 ---
 
 ## About Me
 
-<div class="about-section" markdown>
-<div class="about-text" markdown>
-
 I build the data foundations that make AI possible.
  
-I’m a Principal Data Architect with 16+ years of experience in data engineering, cloud architecture, distributed computing, and enterprise data platforms.
+I'm a Principal Data Architect with 16+ years of experience in data engineering, cloud architecture, distributed computing, and enterprise data platforms.
  
 My expertise spans Apache Spark, PySpark, Python, SQL, AWS, Azure, GCP, Databricks, Snowflake, and Microsoft Fabric, with a focus on building scalable and reliable data platforms.
  
@@ -44,20 +27,12 @@ I believe the next generation of data platforms won't simply store and process d
  
 I enjoy designing architectures that bridge traditional data engineering with emerging AI capabilities while maintaining the fundamentals that enterprises need: security, governance, scalability, reliability, and cost efficiency.
  
-Core expertise: Data Architecture | Data Engineering | Cloud Platforms | Apache Spark | PySpark | AWS | Azure | GCP | Databricks | Snowflake | Microsoft Fabric | Data Migration | Generative AI | AI-ready Data Platforms
-
-</div>
-
-<div class="about-image">
-  <img src="assets/images/about.png" alt="About">
-</div>
-
-</div>
+**Core expertise:** Data Architecture | Data Engineering | Cloud Platforms | Apache Spark | PySpark | AWS | Azure | GCP | Databricks | Snowflake | Microsoft Fabric | Data Migration | Generative AI | AI-ready Data Platforms
 
 ---
 
 [View My Projects :material-arrow-right:](projects/index.md){ .md-button .md-button--primary }
-[Download CV :material-download:](assets/Balbeer-Singh-CV.pdf){ .md-button }
+[Download CV :material-download:](../assets/Balbeer-Singh-CV.pdf){ .md-button }
 
 
 ---
@@ -122,5 +97,5 @@ Core expertise: Data Architecture | Data Engineering | Cloud Platforms | Apache 
 
 ## Connect
 
-[GitHub](https://github.com/[YOUR-GITHUB-USERNAME]){ .md-button }
-[LinkedIn](https://linkedin.com/in/[YOUR-LINKEDIN-USERNAME]){ .md-button }
+[GitHub](https://github.com/balbeer){ .md-button }
+[LinkedIn](https://linkedin.com/in/balbeer-singh-bedi){ .md-button }
