@@ -39,6 +39,7 @@ My current area of interest is the evolution of AI-powered Data Engineering—us
 cd /Users/balbeersingh/Desktop/balbeer.github.io
 python3 -m venv .venv
 source .venv/bin/activate
+.\venv\Scripts\Activate.ps1
 python -m pip install --upgrade pip
 pip install -r requirements.txt
 mkdocs serve

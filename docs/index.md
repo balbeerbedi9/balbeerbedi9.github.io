@@ -9,7 +9,7 @@ hide:
     <p class="eyebrow">DATA STRATEGY • CLOUD ARCHITECTURE • AI & BUSINESS TRANSFORMATION</p>
     <h1>Architecting Enterprise Data Platforms and AI-Driven Business Growth</h1>
     <p class="subtitle">Principal Data Architect | 16+ Years of Experience</p>
-    <p class="lead">I architect scalable enterprise data platforms across AWS, Azure, and GCP, leveraging Databricks, Snowflake, modern data engineering, and applied AI. I bridge technology and business strategy to enable enterprise transformation, AI adoption, and revenue-generating solutions.</p>
+    <p class="lead">I design and deliver scalable enterprise data platforms across AWS, Azure and GCP, leveraging Databricks, Snowflake and modern data engineering technologies. I combine cloud architecture, data strategy and applied AI to solve complex business challenges, accelerate digital transformation and drive measurable business outcomes..</p>
 
     <div class="home-feature-row">
       <div class="home-feature-item">
@@ -68,42 +68,36 @@ I partner with business and technology leaders to translate technical capability
 <div class="grid cards" markdown>
 
 -   :material-briefcase:{ .lg .middle } **AI Strategy & Go-To-Market**
-    ---
-    - GTM strategy for Data & AI services
-    - Translating technical capabilities into business solutions
-    - Service-based solution design & scaling
-    - Stakeholder alignment & technical pre-sales
+    - Data & AI service portfolio strategy
+    - AI opportunity identification and solution positioning
+    - Technical pre-sales and solution consulting
+    - Business value and revenue realization
 
 -   :material-chart-line:{ .lg .middle } **C-Suite & Strategic Advisory**
-    ---
     - AI governance, risk management & compliance
     - Operating models & ROI optimization
     - Bridging technical execution & business value
     - Enterprise-wide data strategy
 
 -   :material-database:{ .lg .middle } **Data Architecture & Engineering**
-    ---
     - Enterprise data platforms & data migration
     - Distributed computing & scalable pipelines
     - AI-ready data platforms & intelligent automation
     - Security, governance & cost efficiency
 
 -   :material-cloud:{ .lg .middle } **Cloud & Modern Data Stack**
-    ---
     - Cloud architecture: AWS, Azure, GCP
     - Platforms: Databricks, Snowflake, Microsoft Fabric
     - Cloud-native storage & compute optimization
     - Cross-cloud data integration
 
 -   :material-robot:{ .lg .middle } **Generative AI & Automation**
-    ---
-    - AI-powered data engineering
-    - GenAI for pipeline design, testing & monitoring
-    - Automated data documentation & optimization
-    - Bridging traditional data engineering with emerging AI
+    - Agentic AI and intelligent workflows
+    - LLM-powered data engineering assistants
+    - AI-assisted data modelling and documentation
+    - AI-driven data quality and automation
 
 -   :material-code-tags:{ .lg .middle } **Programming & Core Tech**
-    ---
     - Python, SQL, Scala, PySpark, Apache Spark
     - Advanced data modeling & ETL/ELT design
     - CI/CD for data & infrastructure as code
