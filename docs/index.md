@@ -20,12 +20,17 @@ I build the data foundations that make AI possible.
 I'm a Principal Data Architect with 16+ years of experience in data engineering, cloud architecture, distributed computing, and enterprise data platforms.
  
 My expertise spans Apache Spark, PySpark, Python, SQL, AWS, Azure, GCP, Databricks, Snowflake, and Microsoft Fabric, with a focus on building scalable and reliable data platforms.
+
+**Currently, I help drive Go-To-Market (GTM) strategy for DATA and AI.** I focus on translating complex technical capabilities into scalable, revenue-generating business solutions for enterprise clients.
  
 My current area of interest is the evolution of AI-powered Data Engineering—using Generative AI and intelligent automation to rethink how data pipelines are designed, developed, tested, monitored, documented, and optimized.
  
 I believe the next generation of data platforms won't simply store and process data. They will understand data, automate engineering decisions, detect problems, recommend improvements, and provide trusted data for AI applications.
  
 I enjoy designing architectures that bridge traditional data engineering with emerging AI capabilities while maintaining the fundamentals that enterprises need: security, governance, scalability, reliability, and cost efficiency.
+
+**Strategic Leadership & C-Suite Advisory:**  
+My focus extends beyond technical execution to delivering measurable enterprise business value. I partner with C-suite and VP-level stakeholders to navigate AI governance, maximize ROI, design scalable operating models, and manage data/AI risk. By bridging the gap between complex data engineering and strategic business goals, I ensure that data platforms actively drive revenue, operational efficiency, and competitive advantage.
  
 **Core expertise:** Data Architecture | Data Engineering | Cloud Platforms | Apache Spark | PySpark | AWS | Azure | GCP | Databricks | Snowflake | Microsoft Fabric | Data Migration | Generative AI | AI-ready Data Platforms
 
@@ -34,64 +39,55 @@ I enjoy designing architectures that bridge traditional data engineering with em
 [View My Projects :material-arrow-right:](projects/index.md){ .md-button .md-button--primary }
 [Download CV :material-download:](../assets/Balbeer-Singh-CV.pdf){ .md-button }
 
-
 ---
 
 ## Skills
 
 <div class="grid cards" markdown>
 
--   :material-layers:{ .lg .middle } **GIS & Remote Sensing**
-
+-   :material-briefcase:{ .lg .middle } **AI Strategy & Go-To-Market**
     ---
+    - GTM Strategy for Data & AI Services
+    - Translating technical capabilities into business solutions
+    - Service-based solution design & scaling
+    - Stakeholder alignment & technical pre-sales
 
-    - QGIS, ArcGIS Pro, Google Earth Engine
-    - GDAL / OGR, GRASS GIS
-    - Multispectral and SAR image analysis
-    - Cloud Native Geospatial (COG, STAC, Zarr)
-
--   :material-code-braces:{ .lg .middle } **Programming**
-
+-   :material-chart-line:{ .lg .middle } **C-Suite & Strategic Advisory**
     ---
+    - AI Governance, Risk Management & Compliance
+    - Operating Models & ROI Optimization
+    - Bridging Technical Execution & Business Value
+    - Enterprise-wide Data Strategy
 
-    - Python — GeoPandas, NumPy, Pandas, Matplotlib
-    - R — sf, terra, ggplot2
-    - JavaScript — Leaflet, MapLibre GL
-    - SQL, PostgreSQL + PostGIS
-
--   :material-star-four-points:{ .lg .middle } **Machine Learning & GeoAI**
-
+-   :material-database:{ .lg .middle } **Data Architecture & Engineering**
     ---
+    - Enterprise Data Platforms & Data Migration
+    - Distributed Computing & Scalable Pipelines
+    - AI-ready Data Platforms & Intelligent Automation
+    - Security, Governance & Cost Efficiency
 
-    - Supervised classification — Random Forest, XGBoost
-    - Deep learning for image segmentation — U-Net, SAM
-    - scikit-learn, PyTorch, TensorFlow
-    - Object detection in satellite imagery
-
--   :material-earth:{ .lg .middle } **Web Mapping & Data**
-
+-   :material-cloud:{ .lg .middle } **Cloud & Modern Data Stack**
     ---
+    - Cloud Architecture: AWS, Azure, GCP
+    - Platforms: Databricks, Snowflake, Microsoft Fabric
+    - Cloud Native Storage & Compute Optimization
+    - Cross-cloud Data Integration
 
-    - Leaflet.js, Folium, MapLibre GL JS
-    - Cloud storage — AWS S3, Google Cloud Storage
-    - Data formats — GeoTIFF, GeoParquet, NetCDF
-    - Streamlit for data-driven web apps
-
--   :material-database:{ .lg .middle } **Data & Cloud**
-
+-   :material-robot:{ .lg .middle } **Generative AI & Automation**
     ---
+    - AI-powered Data Engineering
+    - GenAI for Pipeline Design, Testing & Monitoring
+    - Automated Data Documentation & Optimization
+    - Bridging Traditional DE with Emerging AI
 
-    - PostgreSQL + PostGIS
-    - Cloud storage: AWS S3, Google Cloud Storage
-    - Data formats: GeoJSON, GeoTIFF, NetCDF, Zarr, GeoParquet
+-   :material-code-tags:{ .lg .middle } **Programming & Core Tech**
+    ---
+    - Python, SQL, Scala, PySpark, Apache Spark
+    - Advanced Data Modeling & ETL/ELT Design
+    - CI/CD for Data & Infrastructure as Code
+    - Performance Tuning & Reliability Engineering
 
--   :material-airplane:{ .lg .middle } **Drone / UAV Data Processing**
-
-    - Mission planning and flight operations
-    - Photogrammetry: Agisoft Metashape, OpenDroneMap
-    - Point cloud processing: CloudCompare, PDAL
 </div>
-
 
 ---
 
