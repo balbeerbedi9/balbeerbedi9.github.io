@@ -93,5 +93,5 @@ My focus extends beyond technical execution to delivering measurable enterprise 
 
 ## Connect
 
-[GitHub](https://github.com/balbeer){ .md-button }
+[GitHub](https://github.com/balbeerbedi9/balbeerbedi9.github.io){ .md-button }
 [LinkedIn](https://linkedin.com/in/balbeer-singh-bedi){ .md-button }
