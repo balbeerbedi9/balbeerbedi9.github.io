@@ -20,11 +20,37 @@ CHECKLIST FOR THIS PAGE:
 <div class="timeline-entry" markdown>
 
 ### Principal Data Architect — V2 Solutions Pvt Ltd
-*March 2009 to Present | Mumbai, India*
+*March 2009 to Present | Mumbai, India*  
+**Client:** CrossCountry Mortgage (CCM)
 
-- [Describe your main responsibility or achievement in one sentence]
-- [Describe another key task, project, or result]
-- [Describe a tool, method, or skill you applied regularly]
+- **Architected and led the delivery of an enterprise-grade, multi-source real estate data integration platform for CrossCountry Mortgage (CCM)**, designing a resilient, incremental AWS ETL pipeline ingesting millions of MLS records from Tier-1 vendors (ATTOM, CoreLogic).
+- **Designed the "15-Day Market Event Isolation Rule"** — a custom Spark-based deduplication algorithm that distinguishes genuine property sales from backend MLS data corrections, ensuring data accuracy for Loan Officer prospecting and automated loan alerts.
+- **Built a dual-schema MongoDB aggregation layer** featuring nested documents for longitudinal trend analysis and flat documents for high-performance faceted search, directly improving the UX for CCM Loan Officers.
+
+
+---
+
+#### 🏠 Champions Home — [Brief One-Line Description of the Project]
+*Data Architect / Lead Engineer | [Year] – [Year]*
+
+- [One sentence describing the business problem you solved]
+- [One sentence describing the architecture or technology you implemented]
+- [One sentence describing the measurable impact or result]
+
+**Technologies:** [List key tools/technologies used]
+
+---
+
+#### 🌱 Thrive — [Brief One-Line Description of the Project]
+*Data Architect / Lead Engineer | [Year] – [Year]*
+
+- [One sentence describing the business problem you solved]
+- [One sentence describing the architecture or technology you implemented]
+- [One sentence describing the measurable impact or result]
+
+**Technologies:** [List key tools/technologies used]
+
+---
 
 </div>
 

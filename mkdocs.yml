@@ -78,6 +78,7 @@ nav:
   - Projects:
     - Projects Overview: projects/index.md
     - Nationwide Data Warehouse: projects/nationwide-data-warehouse.md
+    - CCM Realtor Prospecting Platform: projects/ccm-realtor-prospecting-platform.md   # ← ADD THIS LINE
     - Sample Notebook: projects/sample-notebook.ipynb
   - Publications: publications.md
   - Contact: contact.md

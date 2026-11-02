@@ -11,6 +11,18 @@ A selection of my enterprise data engineering and architecture projects. Click a
 <div class="grid" markdown>
 
 <div class="project-card" markdown>
+![](../assets/images/ccm-mls-architecture.png)
+
+**[CCM Realtor Prospecting Platform](ccm-realtor-prospecting-platform.md)**
+
+Project Lead & Data Architect role designing a multi-source real estate data integration platform for CrossCountry Mortgage. Architected incremental AWS ETL pipelines ingesting millions of MLS records, with a dual-layer MongoDB aggregation engine powering Loan Officer prospecting.
+
+`AWS Step Functions` `PySpark` `MongoDB` `Redshift` `Snowflake` `ETL`
+
+[View Project →](ccm-realtor-prospecting-platform.md){ .md-button }
+</div>
+
+<div class="project-card" markdown>
 ![](../assets/images/nationwide-card.png)
 
 **[Nationwide Insurance Data Warehouse](nationwide-data-warehouse.md)**
