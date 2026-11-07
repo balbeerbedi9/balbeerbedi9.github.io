@@ -77,9 +77,10 @@ nav:
   - Experience: experience.md
   - Projects:
     - Projects Overview: projects/index.md
-    - Nationwide Data Warehouse: projects/nationwide-data-warehouse.md
     - CCM Realtor Prospecting Platform: projects/ccm-realtor-prospecting-platform.md
     - Thrive TRM Data Migration & Validation: projects/thrive-trm-migration.md
+    - Avixa Fabric POV: projects/avixa-fabric-pov.md  # <--- ADD THIS LINE
+    - Nationwide Data Warehouse: projects/nationwide-data-warehouse.md
     - Sample Notebook: projects/sample-notebook.ipynb
   - Publications: publications.md
   - Contact: contact.md

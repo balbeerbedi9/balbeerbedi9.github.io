@@ -23,15 +23,15 @@ Project Lead & Data Architect role designing a multi-source real estate data int
 </div>
 
 <div class="project-card" markdown>
-![](../assets/images/nationwide-card.png)
+![](../assets/images/avixa-data-flow.png)
 
-**[Nationwide Insurance Data Warehouse](nationwide-data-warehouse.md)**
+**[Avixa – Enterprise Data Modernization (Fabric POV)](avixa-fabric-pov.md)**
 
-Principal Data Architect role designing enterprise-scale ETL and data warehouse solutions for Fortune 100 insurer. Integrated 48+ source systems into 100+ TB Teradata platform supporting ~85% of business analytics and regulatory compliance.
+Data Architect / Lead Engineer role architecting a Microsoft Fabric data lakehouse utilizing a Medallion architecture. Unified fragmented CRM (Salesforce), ERP (Sage Intacct), and marketing (Pardot) data to deliver executive dashboards for Customer Value, Sales Performance, and Audience Engagement, aligning financial data within a ±2% tolerance.
 
-`Teradata` `ETL` `Data Architecture` `FastLoad` `MultiLoad` `SQL` `Data Modeling`
+`Microsoft Fabric` `Azure Data Lake` `Power BI` `Apache Spark` `Medallion Architecture` `Salesforce` `Sage Intacct` `Pardot`
 
-[View Project →](nationwide-data-warehouse.md){ .md-button }
+[View Project →](avixa-fabric-pov.md){ .md-button }
 </div>
 
 <div class="project-card" markdown>
@@ -56,6 +56,18 @@ Data Quality Engineer & Migration Validation Lead role engineering an automated,
 `Python` `PySpark` `Pandas` `SQL`
 
 [View Project →](sample-notebook.ipynb){ .md-button }
+</div>
+
+<div class="project-card" markdown>
+![](../assets/images/nationwide-card.png)
+
+**[Nationwide Insurance Data Warehouse](nationwide-data-warehouse.md)**
+
+Principal Data Architect role designing enterprise-scale ETL and data warehouse solutions for Fortune 100 insurer. Integrated 48+ source systems into 100+ TB Teradata platform supporting ~85% of business analytics and regulatory compliance.
+
+`Teradata` `ETL` `Data Architecture` `FastLoad` `MultiLoad` `SQL` `Data Modeling`
+
+[View Project →](nationwide-data-warehouse.md){ .md-button }
 </div>
 
 </div>

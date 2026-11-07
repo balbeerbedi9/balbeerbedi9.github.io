@@ -24,23 +24,26 @@ CHECKLIST FOR THIS PAGE:
 
 #### CrossCountry Mortgage (CCM) — Real Estate Data Integration Platform
 
+**Role:** Principal Data Architect / Lead Engineer
+
 - **Architected and led an enterprise real estate data integration platform**, building a resilient, incremental AWS ETL pipeline that ingests millions of MLS records from Tier 1 vendors, including ATTOM and CoreLogic.
 - **Developed the “15-Day Market Event Isolation Rule,”** a Spark-based deduplication algorithm that distinguishes genuine property sales from backend MLS corrections, improving data accuracy for loan-officer prospecting and automated loan alerts.
 - **Designed a dual-schema MongoDB aggregation layer** with nested documents for longitudinal trend analysis and flat documents for high-performance faceted search, improving the experience for CCM loan officers.
 
+---
+
+#### 🏠 Avixa — Enterprise Data Modernization & Analytics Platform (Fabric POV)
+
+**Role:** Data Architect / Lead Engineer
+
+- **Resolved fragmented data silos across CRM, ERP, and marketing systems**, enabling AVIXA to unify customer, sales, and audience data to drive strategic decision-making, accurate revenue forecasting, and market segment analysis.
+- **Architected a Microsoft Fabric data lakehouse utilizing a Medallion architecture**, building automated data pipelines to ingest, transform, and model data from Salesforce, Sage Intacct, and Pardot into domain-specific semantic models.
+- **Delivered three core analytical dashboards (Customer Value, Sales, and Audience)**, providing end-to-end visibility into pipeline progression and audience-to-customer conversion, improving forecast accuracy and aligning CRM/ERP revenue data within a ±2% tolerance.
+
+**Technologies:** Microsoft Fabric, Azure Data Lake, Power BI, Apache Spark, SQL, Salesforce, Sage Intacct, Pardot, Medallion Architecture, Git/DevOps
 
 ---
 
-#### 🏠 Champions Home — [Brief One-Line Description of the Project]
-*Data Architect / Lead Engineer | [Year] – [Year]*
-
-- [One sentence describing the business problem you solved]
-- [One sentence describing the architecture or technology you implemented]
-- [One sentence describing the measurable impact or result]
-
-**Technologies:** [List key tools/technologies used]
-
----
 #### 🌱 Thrive TRM — Enterprise SaaS Data Migration & Validation
 
 **Role:** Data Quality Engineer / Migration Validation Lead · **Scope:** 270+ enterprise tenants · 134+ tables · 1.2M+ people records
@@ -60,9 +63,11 @@ CHECKLIST FOR THIS PAGE:
 ### Architect Data Solution — Apexon
 *July 2022 – March 2025 | Hyderabad, India*
 
-- [Describe your main responsibility or achievement in one sentence]
-- [Describe another key task, project, or result]
-- [Describe a tool, method, or skill you applied regularly]
+- **Spearheaded the design and implementation of enterprise-grade data solutions**, translating complex business requirements into scalable, cloud-native architectures that accelerated data-driven decision-making for diverse enterprise clients.
+- **Architected modern data platforms and migration strategies**, leveraging cloud technologies and big data frameworks to optimize data pipelines, reduce infrastructure costs, and improve data accessibility across the organization.
+- **Established data governance and architectural best practices**, mentoring engineering teams and standardizing CI/CD pipelines for data deployments, which significantly reduced time-to-market for new data products.
+
+**Technologies:** Cloud Data Platforms (AWS/Azure/GCP), Data Modeling, ETL/ELT, Data Governance, Agile/Scrum, Python, SQL
 
 </div>
 
@@ -71,9 +76,11 @@ CHECKLIST FOR THIS PAGE:
 ### Cloud Architect - GCP & Data Engineer — HSBC Technology India
 *August 2016 – July 2022 | Hyderabad, India*
 
-- [Describe your main responsibility or achievement in one sentence]
-- [Describe another key task, project, or result]
-- [Describe a tool, method, or skill you applied regularly]
+- **Architected and engineered large-scale cloud data solutions on Google Cloud Platform (GCP)**, migrating legacy on-premise data workloads to the cloud to enhance scalability, security, and performance for global banking operations.
+- **Built robust, automated data pipelines using BigQuery, Dataflow, and Cloud Composer**, processing terabytes of financial transaction data daily to support risk management, compliance, and real-time analytics.
+- **Optimized cloud infrastructure and query performance**, implementing partitioning, clustering, and cost-management strategies that reduced GCP compute and storage costs while maintaining strict SLA adherence for critical financial reporting.
+
+**Technologies:** Google Cloud Platform (GCP), BigQuery, Dataflow, Cloud Composer, Apache Beam, Python, SQL, Data Modeling, CI/CD
 
 </div>
 
@@ -95,10 +102,17 @@ CHECKLIST FOR THIS PAGE:
 
 ## Education
 
-### Bachelor Of Engineering in Electronics & Communication Engineering
-**Visvesvaraya Technological University (VTU)** | *2007*
+### Bachelor of Engineering in Electronics & Communication Engineering
+**GNDEC, Bidar, Visvesvaraya Technological University (VTU)** | *2007*
+- Graduated with **69%** (First Class), maintaining a consistent record of academic excellence with a 100% pass rate across all semesters.
 
-[Optional: one sentence about your thesis, specialization, or coursework if relevant]
+### Intermediate (12th Grade)
+**SVJC, Board of Intermediate Education, Andhra Pradesh** | *2003*
+- Secured **89%**, building a strong foundational background in mathematics and sciences.
+
+### Secondary School Certificate (SSC / 10th Grade)
+**Government High School, Karimnagar, Andhra Pradesh** | *2001*
+- Secured **84%** with distinction.
 
 ---
 
@@ -108,4 +122,4 @@ CHECKLIST FOR THIS PAGE:
 - [Certification Name] — [Issuing Organization], [Year]
 - [Certification Name] — [Issuing Organization], [Year]
 
-*Examples: QGIS Certification, PMP Certification, AWS Certified Cloud Practitioner*
+*Examples: QGIS Certification, PMP Certification, AWS Certified Cloud Practitioner*.
