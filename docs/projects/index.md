@@ -35,6 +35,18 @@ Principal Data Architect role designing enterprise-scale ETL and data warehouse 
 </div>
 
 <div class="project-card" markdown>
+![](../assets/images/thrive-migration-arch.png)
+
+**[Thrive TRM — Data Migration & Validation Platform](thrive-trm-migration.md)**
+
+Data Quality Engineer & Migration Validation Lead role engineering an automated, field-level data validation framework for migrating 270+ enterprise customers from a legacy per-tenant database architecture to a consolidated multi-tenant SaaS platform. Built a Python + PostgreSQL FDW validation engine performing row-by-row, column-level comparisons across 134+ tables — guaranteeing zero-defect go-lives for 1.2M+ people and 193K+ company records.
+
+`Python` `PostgreSQL` `FDW` `Pandas` `AWS RDS` `Data Validation` `ETL` `Jupyter` `GitHub Actions`
+
+[View Project →](thrive-trm-migration.md){ .md-button }
+</div>
+
+<div class="project-card" markdown>
 ![](../assets/images/placeholder-notebook.png)
 
 **[Sample Notebook](sample-notebook.ipynb)**
@@ -49,15 +61,3 @@ Principal Data Architect role designing enterprise-scale ETL and data warehouse 
 </div>
 
 ---
-
-##  About My Work
-
-I'm a **Principal Data Architect** with 16+ years of experience building enterprise-grade data platforms that serve as the foundation for AI and analytics.
-
-My projects focus on:
-- **Enterprise Data Architecture** - Designing scalable, governed data platforms
-- **Cloud Migration & Modernization** - AWS, Azure, GCP, Databricks, Snowflake, Microsoft Fabric
-- **AI-Ready Data Engineering** - Building data foundations that power Generative AI and ML applications
-- **Distributed Computing** - Apache Spark, PySpark for large-scale data processing
-
-I bridge traditional data engineering fundamentals with emerging AI capabilities while maintaining enterprise requirements: security, governance, scalability, and cost efficiency.
