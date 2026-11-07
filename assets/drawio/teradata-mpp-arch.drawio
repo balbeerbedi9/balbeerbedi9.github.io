@@ -1,0 +1,121 @@
+<mxfile host="app.diagrams.net" agent="ChatGPT">
+  <diagram id="td-mpp" name="Teradata MPP Architecture">
+    <mxGraphModel dx="1796" dy="1083" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1600" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#153F68;strokeColor=#153F68;fontColor=#FFFFFF;fontSize=24;fontStyle=1;spacing=10;arcSize=12;" value="TERADATA MPP ARCHITECTURE&#xa;Parsing Engine • BYNET Interconnect • Access Module Processors" vertex="1">
+          <mxGeometry height="82" width="1140" x="230" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="request" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#443255;strokeColor=#332443;fontColor=#FFFFFF;fontSize=18;fontStyle=1;arcSize=8;" value="SQL REQUEST&#xa;Client / Application" vertex="1">
+          <mxGeometry height="85" width="230" x="45" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="response" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F28C28;strokeColor=#C66B12;fontColor=#FFFFFF;fontSize=18;fontStyle=1;arcSize=8;" value="SQL RESPONSE&#xa;Result set to client" vertex="1">
+          <mxGeometry height="85" width="230" x="1325" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="pe" parent="1" style="swimlane;whiteSpace=wrap;html=1;rounded=1;startSize=52;fillColor=#C83D3D;swimlaneFillColor=#FCE8E8;strokeColor=#A52D2D;fontColor=#FFFFFF;fontSize=21;fontStyle=1;horizontal=1;arcSize=10;" value="PARSING ENGINE (PE)&#xa;Session management • SQL request processing • Response handling" vertex="1">
+          <mxGeometry height="300" width="740" x="430" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="session" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFE0E0;strokeColor=#B94B4B;fontColor=#4D1717;fontSize=16;fontStyle=1;" value="SESSION CONTROL&#xa;Logon • session lifecycle" vertex="1">
+          <mxGeometry height="54" width="380" x="610" y="195" as="geometry" />
+        </mxCell>
+        <mxCell id="parser" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFE0E0;strokeColor=#B94B4B;fontColor=#4D1717;fontSize=16;fontStyle=1;" value="PARSER&#xa;Syntax • semantic checks • query rewrite" vertex="1">
+          <mxGeometry height="54" width="380" x="610" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="optimizer" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFE0E0;strokeColor=#B94B4B;fontColor=#4D1717;fontSize=16;fontStyle=1;" value="OPTIMIZER&#xa;Chooses efficient access plan" vertex="1">
+          <mxGeometry height="54" width="380" x="610" y="325" as="geometry" />
+        </mxCell>
+        <mxCell id="generator" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFE0E0;strokeColor=#B94B4B;fontColor=#4D1717;fontSize=15;fontStyle=1;" value="GENERATOR + DISPATCHER&#xa;Builds AMP steps • dispatches • coordinates responses" vertex="1">
+          <mxGeometry height="54" width="380" x="610" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="bynet0" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F49A2F;strokeColor=#C97813;fontColor=#FFFFFF;fontSize=20;fontStyle=1;arcSize=6;" value="BYNET 0  |  Interconnect fabric" vertex="1">
+          <mxGeometry height="68" width="1030" x="285" y="505" as="geometry" />
+        </mxCell>
+        <mxCell id="bynet1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#76549A;strokeColor=#563777;fontColor=#FFFFFF;fontSize=20;fontStyle=1;arcSize=6;" value="BYNET 1  |  Redundant interconnect path" vertex="1">
+          <mxGeometry height="68" width="1030" x="285" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="bynetnote" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontColor=#394B5A;fontSize=14;" value="Carries AMP steps, coordination messages, row redistribution and result messages between PE and AMPs" vertex="1">
+          <mxGeometry height="34" width="920" x="340" y="672" as="geometry" />
+        </mxCell>
+        <mxCell id="amphead" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DCEBFA;strokeColor=#377DB5;fontColor=#164B72;fontSize=20;fontStyle=1;arcSize=8;" value="ACCESS MODULE PROCESSORS (AMPS) — PARALLEL EXECUTION" vertex="1">
+          <mxGeometry height="48" width="1260" x="170" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="amp0" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D7E9FF;strokeColor=#377DB5;fontColor=#123D65;fontSize=16;fontStyle=1;arcSize=8;" value="AMP 0&#xa;Local query execution&#xa;Owns assigned rows" vertex="1">
+          <mxGeometry height="100" width="245" x="190" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="amp1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D7E9FF;strokeColor=#377DB5;fontColor=#123D65;fontSize=16;fontStyle=1;arcSize=8;" value="AMP 1&#xa;Local query execution&#xa;Owns assigned rows" vertex="1">
+          <mxGeometry height="100" width="245" x="505" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="amp2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D7E9FF;strokeColor=#377DB5;fontColor=#123D65;fontSize=16;fontStyle=1;arcSize=8;" value="AMP 2&#xa;Local query execution&#xa;Owns assigned rows" vertex="1">
+          <mxGeometry height="100" width="245" x="820" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="amp3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D7E9FF;strokeColor=#377DB5;fontColor=#123D65;fontSize=16;fontStyle=1;arcSize=8;" value="AMP N&#xa;Local query execution&#xa;Owns assigned rows" vertex="1">
+          <mxGeometry height="100" width="245" x="1135" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="disk0" parent="1" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#333333;strokeColor=#111111;fontColor=#FFFFFF;fontSize=15;fontStyle=1;" value="VIRTUAL DISK / STORAGE&#xa;AMP 0 data" vertex="1">
+          <mxGeometry height="95" width="165" x="230" y="925" as="geometry" />
+        </mxCell>
+        <mxCell id="disk1" parent="1" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#333333;strokeColor=#111111;fontColor=#FFFFFF;fontSize=15;fontStyle=1;" value="VIRTUAL DISK / STORAGE&#xa;AMP 1 data" vertex="1">
+          <mxGeometry height="95" width="165" x="545" y="925" as="geometry" />
+        </mxCell>
+        <mxCell id="disk2" parent="1" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#333333;strokeColor=#111111;fontColor=#FFFFFF;fontSize=15;fontStyle=1;" value="VIRTUAL DISK / STORAGE&#xa;AMP 2 data" vertex="1">
+          <mxGeometry height="95" width="165" x="860" y="925" as="geometry" />
+        </mxCell>
+        <mxCell id="disk3" parent="1" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#333333;strokeColor=#111111;fontColor=#FFFFFF;fontSize=15;fontStyle=1;" value="VIRTUAL DISK / STORAGE&#xa;AMP N data" vertex="1">
+          <mxGeometry height="95" width="165" x="1175" y="925" as="geometry" />
+        </mxCell>
+        <mxCell id="note" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6F9;strokeColor=#AAB8C2;fontColor=#334B5C;fontSize=15;fontStyle=1;arcSize=8;" value="MPP • Shared-nothing design • Rows distributed across AMPs using Primary Index hash • Each AMP processes its local data in parallel" vertex="1">
+          <mxGeometry height="45" width="1140" x="230" y="1035" as="geometry" />
+        </mxCell>
+        <mxCell id="r1" edge="1" parent="1" source="request" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#76549A;strokeWidth=3;endArrow=block;endFill=1;fontSize=13;fontColor=#563777;" target="pe" value="SQL request">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r2" edge="1" parent="1" source="pe" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#F28C28;strokeWidth=3;endArrow=block;endFill=1;fontSize=13;fontColor=#A85A0B;" target="response" value="Result set">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r3" edge="1" parent="1" source="pe" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#F28C28;strokeWidth=3;endArrow=block;endFill=1;fontSize=13;fontColor=#A85A0B;" target="bynet0" value="AMP steps / requests">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r4" edge="1" parent="1" source="pe" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#76549A;strokeWidth=3;endArrow=block;endFill=1;fontSize=13;fontColor=#563777;" target="bynet1" value="Messages / coordination">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a0" edge="1" parent="1" source="bynet0" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#F28C28;strokeWidth=2;endArrow=block;endFill=1;" target="amp0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a1" edge="1" parent="1" source="bynet0" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#F28C28;strokeWidth=2;endArrow=block;endFill=1;" target="amp1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a2" edge="1" parent="1" source="bynet0" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#F28C28;strokeWidth=2;endArrow=block;endFill=1;" target="amp2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a3" edge="1" parent="1" source="bynet0" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#F28C28;strokeWidth=2;endArrow=block;endFill=1;" target="amp3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b0" edge="1" parent="1" source="bynet1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#76549A;strokeWidth=2;endArrow=block;endFill=1;" target="amp0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b1" edge="1" parent="1" source="bynet1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#76549A;strokeWidth=2;endArrow=block;endFill=1;" target="amp1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b2" edge="1" parent="1" source="bynet1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#76549A;strokeWidth=2;endArrow=block;endFill=1;" target="amp2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b3" edge="1" parent="1" source="bynet1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#76549A;strokeWidth=2;endArrow=block;endFill=1;" target="amp3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s0" edge="1" parent="1" source="amp0" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#377DB5;strokeWidth=3;endArrow=block;endFill=1;" target="disk0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s1" edge="1" parent="1" source="amp1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#377DB5;strokeWidth=3;endArrow=block;endFill=1;" target="disk1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s2" edge="1" parent="1" source="amp2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#377DB5;strokeWidth=3;endArrow=block;endFill=1;" target="disk2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s3" edge="1" parent="1" source="amp3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#377DB5;strokeWidth=3;endArrow=block;endFill=1;" target="disk3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
